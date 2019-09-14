@@ -1,0 +1,109 @@
+.logo, .greeting {
+    font-family: 'Courgette', cursive;
+}
+
+.line {
+    color: #111;
+    height: 1px;
+    background-color: #111;
+    border: none;
+}
+
+.header {
+    background: linear-gradient(rgba( 0, 0, 0, .5),rgba( 0, 0, 0, .5)), url('../images/bg-img.jpg') no-repeat fixed center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    padding-bottom: 150px;
+}
+
+.greeting {
+    padding-top: 70px;
+}
+
+.pro {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.my-image {
+    img {
+        width: 100%;
+        height: auto;
+        border: 0;
+    }
+}
+
+#about, #level, #services {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.bd-0 {
+    border: none;
+}
+
+.bl-1 {
+   border-right: 1px solid white;
+   @media screen and (max-width: 767px){
+       border-right: unset;
+   }
+}
+
+
+
+#contact {
+    background: #2b2b2b;
+    color: $white;
+    padding-top: 60px;
+    .row {
+        border-bottom: 1px solid #bbbbbb;
+        padding-bottom: 30px
+    }
+    .quick-links p a {
+        color: $white;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.social-media-logo-container {
+    margin-top: 30px
+}
+
+.copyright-footer {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.about-text {
+    margin-top: 3rem;
+    @media screen and (min-width: 560px){
+        margin-top: 0;
+    }
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+    }
+    .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+}

@@ -1,0 +1,19 @@
+.bg {
+  &-brand {
+    background-color: $brand-color;
+  }
+  &-linear-grad {
+    background-image: linear-gradient(to right, $brand-color, $brand-light);
+    border-color: $brand-light;
+    color: $white;
+  }
+  &-body {
+    background: linear-gradient(rgba( 0, 0, 0, .7),rgba( 0, 0, 0, .7)), url('../images/level.jpg') no-repeat fixed center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    padding-bottom: 100px;
+  }
+}

@@ -1,0 +1,42 @@
+.btn {
+  &:active, &:focus {
+    box-shadow: none;
+  }
+  &-brand, &-brand-media{
+    color: $white;
+    background-color: $brand-color;
+    border-color: $brand-color;
+    &:hover {
+      color: $brand-color;
+      border-color: $white;
+    }
+  }
+  &-brand {
+    &:hover {
+      background-color: $white;
+    }
+  }
+  &-brand-media {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  &-white {
+    color: $brand-color;
+    background-color: $white;
+    border-color: $white;
+    &:hover {
+      background-color: $brand-color;
+      color: $white;
+      border-color: $brand-color;
+    }
+  }
+  &-outline-brand {
+    color: $brand-color;
+    border-color: $brand-color;
+    &:hover {
+      color: $white;
+      background-color: $brand-color;
+    }
+  }
+}

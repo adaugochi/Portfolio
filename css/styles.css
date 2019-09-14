@@ -1,0 +1,170 @@
+body {
+  font-family: 'Dosis', sans-serif; }
+
+.btn:active, .btn:focus {
+  box-shadow: none; }
+
+.btn-brand, .btn-brand-media {
+  color: #ffffff;
+  background-color: #900048;
+  border-color: #900048; }
+  .btn-brand:hover, .btn-brand-media:hover {
+    color: #900048;
+    border-color: #ffffff; }
+
+.btn-brand:hover {
+  background-color: #ffffff; }
+
+.btn-brand-media:hover {
+  background-color: transparent; }
+
+.btn-white {
+  color: #900048;
+  background-color: #ffffff;
+  border-color: #ffffff; }
+  .btn-white:hover {
+    background-color: #900048;
+    color: #ffffff;
+    border-color: #900048; }
+
+.btn-outline-brand {
+  color: #900048;
+  border-color: #900048; }
+  .btn-outline-brand:hover {
+    color: #ffffff;
+    background-color: #900048; }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border-radius: 3px;
+  transition: transform .2s; }
+  .card-zoom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem; }
+  .card-title {
+    margin-bottom: 0.75rem; }
+  .card-width {
+    max-width: 300px;
+    min-width: 200px; }
+    @media screen and (max-width: 768px) {
+      .card-width {
+        max-width: unset;
+        min-width: unset; } }
+
+.bg-brand {
+  background-color: #900048; }
+
+.bg-linear-grad {
+  background-image: linear-gradient(to right, #900048, #d45594);
+  border-color: #d45594;
+  color: #ffffff; }
+
+.bg-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/level.jpg") no-repeat fixed center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  padding-bottom: 100px; }
+
+.text-brand {
+  color: #900048; }
+
+.text-gray {
+  color: #2b2b2b; }
+
+.logo, .greeting {
+  font-family: 'Courgette', cursive; }
+
+.line {
+  color: #111;
+  height: 1px;
+  background-color: #111;
+  border: none; }
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-img.jpg") no-repeat fixed center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  padding-bottom: 150px; }
+
+.greeting {
+  padding-top: 70px; }
+
+.pro {
+  font-weight: bold;
+  font-size: 50px; }
+
+.my-image img {
+  width: 100%;
+  height: auto;
+  border: 0; }
+
+#about, #level, #services {
+  padding-top: 30px;
+  padding-bottom: 60px; }
+
+.bd-0 {
+  border: none; }
+
+.bl-1 {
+  border-right: 1px solid white; }
+  @media screen and (max-width: 767px) {
+    .bl-1 {
+      border-right: unset; } }
+
+#contact {
+  background: #2b2b2b;
+  color: #ffffff;
+  padding-top: 60px; }
+  #contact .row {
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 30px; }
+  #contact .quick-links p a {
+    color: #ffffff; }
+    #contact .quick-links p a:hover {
+      color: #ffffff; }
+
+.email {
+  text-decoration: underline; }
+
+.social-media-logo-container {
+  margin-top: 30px; }
+
+.copyright-footer {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.about-text {
+  margin-top: 3rem; }
+  @media screen and (min-width: 560px) {
+    .about-text {
+      margin-top: 0; } }
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em; }
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden; }
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em; }
