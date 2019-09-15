@@ -39,4 +39,9 @@
       background-color: $brand-color;
     }
   }
+  &-number {
+    background-color: $brand-color;
+    color: $white;
+    border-radius: 50%;
+  }
 }

@@ -36,9 +36,12 @@
     }
 }
 
-#about, #level, #services {
-    padding-top: 30px;
+#about, #services, #faq {
+    padding-top: 60px;
     padding-bottom: 60px;
+}
+#services {
+    background-color: ghostwhite;
 }
 
 .bd-0 {

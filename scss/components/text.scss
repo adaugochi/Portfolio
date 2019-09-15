@@ -5,4 +5,12 @@
   &-gray {
     color: $brand-gray;
   }
+  &-anchor {
+    text-decoration: none;
+    color: $brand-gray;
+    &:hover, &:focus, &:active {
+      text-decoration: none;
+      color: $brand-gray;
+    }
+  }
 }

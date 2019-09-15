@@ -34,6 +34,11 @@ body {
     color: #ffffff;
     background-color: #900048; }
 
+.btn-number {
+  background-color: #900048;
+  color: #ffffff;
+  border-radius: 50%; }
+
 .card {
   position: relative;
   display: flex;
@@ -83,6 +88,13 @@ body {
 .text-gray {
   color: #2b2b2b; }
 
+.text-anchor {
+  text-decoration: none;
+  color: #2b2b2b; }
+  .text-anchor:hover, .text-anchor:focus, .text-anchor:active {
+    text-decoration: none;
+    color: #2b2b2b; }
+
 .logo, .greeting {
   font-family: 'Courgette', cursive; }
 
@@ -113,9 +125,12 @@ body {
   height: auto;
   border: 0; }
 
-#about, #level, #services {
-  padding-top: 30px;
+#about, #services, #faq {
+  padding-top: 60px;
   padding-bottom: 60px; }
+
+#services {
+  background-color: ghostwhite; }
 
 .bd-0 {
   border: none; }
