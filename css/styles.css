@@ -10,7 +10,7 @@ body {
   border-color: #900048; }
   .btn-brand:hover, .btn-brand-media:hover {
     color: #900048;
-    border-color: #ffffff; }
+    border-color: unset; }
 
 .btn-brand:hover {
   background-color: #ffffff; }
@@ -105,7 +105,7 @@ body {
   border: none; }
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-img.jpg") no-repeat fixed center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-img.jpg") no-repeat center;
   background-size: cover;
   min-width: 100%;
   min-height: 100%;

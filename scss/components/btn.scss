@@ -8,7 +8,7 @@
     border-color: $brand-color;
     &:hover {
       color: $brand-color;
-      border-color: $white;
+      border-color: unset;
     }
   }
   &-brand {

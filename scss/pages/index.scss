@@ -10,7 +10,7 @@
 }
 
 .header {
-    background: linear-gradient(rgba( 0, 0, 0, .5),rgba( 0, 0, 0, .5)), url('../images/bg-img.jpg') no-repeat fixed center;
+    background: linear-gradient(rgba( 0, 0, 0, .5),rgba( 0, 0, 0, .5)), url('../images/bg-img.jpg') no-repeat center;
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
@@ -54,8 +54,6 @@
        border-right: unset;
    }
 }
-
-
 
 #contact {
     background: #2b2b2b;
