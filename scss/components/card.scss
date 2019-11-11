@@ -8,9 +8,11 @@
   background-clip: border-box;
   border-radius: 3px;
   transition: transform .2s;
-  &-zoom:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  @media screen and (min-width: 500px) {
+    &-zoom:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
   }
   &-body {
     flex: 1 1 auto;
